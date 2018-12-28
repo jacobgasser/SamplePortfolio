@@ -1,0 +1,14 @@
+{
+  "name": "sampleportfolio",
+  "version": "1.0.0",
+  "description": "Sample Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Jacob Gasser",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
