@@ -4,11 +4,13 @@
   "description": "Sample Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive --delay 3000",
+    "gulp": "gulp-wait"
   },
   "author": "Jacob Gasser",
   "license": "MIT",
   "dependencies": {
+    "gulp-wait": "0.0.2",
     "node-sass": "^4.11.0"
   }
 }
